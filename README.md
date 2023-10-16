@@ -21,7 +21,7 @@ In this case, the SSH forwarding port is "8430". Note this port number will be d
 
 ssh -L 8430:localhost:8430 your_username@biomix
 
-## Open web browser from your local computer, and point it to
+## Open web browser from your local computer, and point it to the following URL
 http://localhost:8430/lab?token=97d7ed87d1122251bc742e48ec30623ccb69e70f2fadcf82
 
 
