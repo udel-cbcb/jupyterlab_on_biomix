@@ -22,7 +22,7 @@ tail slurm-324335.out
 
 In this case, the SSH forwarding port is "8430". Note this port number will be different each time you submit the above slurm script. Keep a note of it, you will use it in the following steps.
 
-## From your local computer, run the following command
+## From your local computer (laptop, desktop etc), run the following command
 
 ```
 ssh -L 8430:localhost:8430 your_username@biomix
