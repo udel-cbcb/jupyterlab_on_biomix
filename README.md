@@ -5,20 +5,20 @@ This repository hosts information about running jupyterlab on [BIOMIX HPC cluste
 
 ```
 sbatch jupyterlab_on_biomix_slurm.sh 
-Submitted batch job 324335
 ```
+Submitted batch job 324335
+
 ## Find out the SSH forwarding port used
 When it is completed we have the log named slurm-324335.out with output similar to this.
 
 ```
 tail slurm-324335.out
-
+```
     To access the server, open this file in a browser:
         file:///home/your_username/.local/share/jupyter/runtime/jpserver-563487-open.html
     Or copy and paste one of these URLs:
         http://localhost:8430/lab?token=97d7ed87d1122251bc742e48ec30623ccb69e70f2fadcf82
         http://127.0.0.1:8430/lab?token=97d7ed87d1122251bc742e48ec30623ccb69e70f2fadcf82
-```
 
 In this case, the SSH forwarding port is "8430". Note this port number will be different each time you submit the above slurm script. Keep a note of it, you will use it in the following steps.
 
