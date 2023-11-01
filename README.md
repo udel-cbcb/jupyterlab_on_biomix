@@ -25,7 +25,7 @@ In this case, the SSH forwarding port is "8430". Note this port number will be d
 ## From your local computer (laptop, desktop etc), run the following command
 
 ```
-ssh -L 8430:localhost:8430 your_username@biomix
+ssh -L 8430:localhost:8430 your_username@biomix.dbi.udel.edu
 ```
 
 ## Open web browser from your local computer, and point it to the following URL
